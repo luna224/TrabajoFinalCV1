@@ -5,25 +5,24 @@
     padding: 0;
 }
 body{
-    background-image: url("/arqui.jpg")
+    background-image: url("cuaderno/fondo2.jpg")
 }
 .div-1{
-    background-color: #36778f;
+    background-color: #5ea1b9;
     box-shadow: 0 2px 3px rgba(236, 231, 231, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
     width: 1100px;
-    height: 1350px;
+    height: 1290px;
     margin-left: 230px;
 }
 .img{
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
-    background-image: url("/img.jpg");
+    background-image: url("cuaderno/fondo1.jpg");
     background-size: cover;
     background-position: center center;
     width: 1100px;
     height: 390px;
 }
 .nav{
-    color: rgb(16, 164, 227);
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 100px;
 }
@@ -31,61 +30,61 @@ body{
     display: flex;
     justify-content: center;
 }
-.boton{
+.broche{
     text-transform: uppercase;
     transition: all 0.2s ease;
     letter-spacing: 2px;
     color: white;
     background-color: darkcyan;
-    box-shadow: 0 0 35px white;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
     border-radius: 50%;
     margin-top: 20px;
     padding: 16px;
     font-size: 14px;
 }
-.boton2{
+.broche2{
     text-transform: uppercase;
     transition: all 0.2s ease;
     letter-spacing: 2px;
     color: white;
     background-color: darkcyan;
-    box-shadow: 0 0 35px white;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
     border-radius: 50%;
     margin-top: 20px;
     padding: 16px;
     font-size: 14px;
 }
-.boton3{
+.broche3{
     text-transform: uppercase;
     transition: all 0.2s ease;
     letter-spacing: 2px;
     color: white;
     background-color: darkcyan;
-    box-shadow: 0 0 35px white;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
     border-radius: 50%;
     margin-top: 20px;
     padding: 16px;
     font-size: 14px;
 }
-.boton4{
+.broche4{
     text-transform: uppercase;
     transition: all 0.2s ease;
     letter-spacing: 2px;
     color: white;
     background-color: darkcyan;
-    box-shadow: 0 0 35px white;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
     border-radius: 50%;
     margin-top: 20px;
     padding: 16px;
     font-size: 14px;
 }
-.boton5{
+.broche5{
     text-transform: uppercase;
     transition: all 0.2s ease;
     letter-spacing: 2px;
     color: white;
     background-color: darkcyan;
-    box-shadow: 0 0 35px white;
+    box-shadow: 0 0 35px rgb(0, 0, 0);
     border-radius: 50%;
     margin-top: 20px;
     padding: 16px;
@@ -128,7 +127,7 @@ h2{
     box-shadow: 0 2px 3px rgba(236, 231, 231, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
     width: 900px;
     padding: 10px;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 15px;
@@ -149,14 +148,15 @@ h2{
     width: 284px;
     height: 520px;
     float: left;
-    padding: 30px;
-    margin-top: 60px;
+    padding: 28px;
+    margin-top: 40px;
     margin-left: 120px;
     background-color: #5b8da8;
     box-shadow: 0 2px 3px rgba(236, 231, 231, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
 }
 .p2{
-    color:black
+    color:black;
+    padding: 5px;
 }
 .p3{
     color: white;
